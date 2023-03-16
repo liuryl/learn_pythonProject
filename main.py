@@ -50,13 +50,13 @@ import math
 # else:
 #     print("is not a hot day")
 
-# weight=input("weight:")
-# unit=input('(L)bs or (Kg)')
-# if unit.upper()=="L":
-#     weight=int(weight)*0.45
-# elif unit.upper()=="K":
-#     weight=int (weight)/0.45
-# print(f"you are {weight}")
+weight=input("weight:")
+unit=input('(L)bs or (Kg)').upper()
+if unit=="L":
+    weight=int(weight)*0.45
+elif unit=="K":
+    weight=int (weight)/0.45
+print(f"you are {weight}")
 
 
 # 循环
@@ -72,4 +72,17 @@ import math
 #         break
 # else:
 #     print("sorry you failed")
-#
+# command=""
+# while True:
+#     command=input(">").lower()
+#     if command=="start":
+#         print("car started...")
+#     elif command=="stop":
+#         print("car stopped.")
+#     elif command=="quit":
+#         break
+#     elif command=="help":
+#         print("""s-go
+#                 st-end
+#                 h=help""")
+#     else:print("i can`t understand")
