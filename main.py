@@ -50,13 +50,13 @@ import math
 # else:
 #     print("is not a hot day")
 
-weight=input("weight:")
-unit=input('(L)bs or (Kg)').upper()
-if unit=="L":
-    weight=int(weight)*0.45
-elif unit=="K":
-    weight=int (weight)/0.45
-print(f"you are {weight}")
+# weight=input("weight:")
+# unit=input('(L)bs or (Kg)').upper()
+# if unit=="L":
+#     weight=int(weight)*0.45
+# elif unit=="K":
+#     weight=int (weight)/0.45
+# print(f"you are {weight}")
 
 
 # 循环
@@ -86,3 +86,62 @@ print(f"you are {weight}")
 #                 st-end
 #                 h=help""")
 #     else:print("i can`t understand")
+
+# command=""
+# started=False
+# while True:
+#     command=input(">").lower()
+#     if command=="start":
+#         if started:
+#             print("the car is go")
+#         else:
+#             started=True
+#             print("the car is started")
+#     elif command=="stop":
+#         if not started:
+#             print("car is already")
+#         else:
+#             started=False
+#             print("the car is stopped")
+
+# for循环
+# for item in range(2,10,3):
+    # range(起始，结尾，步长）
+    # print(item)
+# prices=[10,20,30]
+# for price in prices:
+#     num_price=price+price
+# print(f"total:{num_price}")
+
+
+# 嵌套循环
+# for x in range(4):
+#     for y in range(3):
+#         print(f"({x},{y})")
+# number=[5,2,5,2,2]
+# for num in number:
+#     output=''
+#     for i in range(num):
+#         output += 'x'
+#     print(output)
+
+# list列表
+# name=['john','bob','mosh','sarah']
+# print(name[1:3])一到三之间的元素
+# number=[3,6,2,8,4,10]
+# max = number[0]
+# for i in number:
+#     if i >max:
+#         max=i
+# print(max)
+# # 2维列表
+# matrix = [[1,2,3],
+#           [4,5,6],
+#           [7,8,9]]
+# matrix[0][1]=20
+# print(matrix[0][2])
+# print(matrix)
+
+# for raw in matrix:
+#     for item in raw:
+#         print(item)
